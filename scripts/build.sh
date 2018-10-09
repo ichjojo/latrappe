@@ -19,7 +19,7 @@ whoami
 echo ""
 echo "start to switch user to flu......"
 echo ""
-sudo su flu
+sudo su flu -c petalinux-build
 cd /home/flu/peta_proj/github/latrappe
 
 sleep 5s
