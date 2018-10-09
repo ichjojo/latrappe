@@ -12,7 +12,7 @@
 sudo su
 sudo su flu
 cd /home/flu/peta_proj/github/latrappe
-petalinux-build
+#petalinux-build
 if [ $? -ne 0 ]; then
         echo "Building failed!!"
         exit 1
