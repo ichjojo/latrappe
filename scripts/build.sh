@@ -19,10 +19,10 @@ whoami
 echo ""
 echo "start to switch user to flu......"
 echo ""
-sudo su flu -c petalinux-build
+#sudo su flu -c petalinux-build
 cd /home/flu/peta_proj/github/latrappe
 
-sleep 5s
+#sleep 5s
 
 echo "the current working directory is:"
 pwd
