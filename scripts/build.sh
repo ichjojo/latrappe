@@ -1,5 +1,6 @@
 #!/bin/sh
 
+sudo su - flu
 cd /home/flu/peta_proj/github/latrappe
 
 #sudo su flu
@@ -8,7 +9,7 @@ cd /home/flu/peta_proj/github/latrappe
 #!
 #su - flu -c petalinux-build
 
-sudo su flu
+#sudo su flu
 petalinux-build
 if [ $? -ne 0 ]; then
         echo "Building failed!!"
